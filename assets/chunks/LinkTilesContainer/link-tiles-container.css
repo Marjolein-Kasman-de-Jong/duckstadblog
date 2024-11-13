@@ -1,4 +1,5 @@
 .link-tiles-container {
+    margin: 36px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
