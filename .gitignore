@@ -1,0 +1,58 @@
+# MODX Core
+/core/cache/
+/core/config/
+/core/export/
+/core/packages/
+/core/.ht.access
+
+# MODX Logs
+/core/logs/
+/core/error.log
+/core/.gitignore
+
+# MODX Setup files
+/setup/
+
+# Environment-specific configuration files
+config.core.php
+.htaccess
+
+# Ignore IDE specific folders
+.vscode/
+.idea/
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+.env
+*.bak
+*.swp
+*.tmp
+
+# Composer dependencies (if you use Composer in your MODX setup)
+/vendor/
+
+# Node modules (if you use npm or yarn)
+/node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore backups and dumps
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Ignore other user-specific and temp files
+*.log
+*.pid
+*.seed
+*.key
+*.crt
+*.pem
+
+# Ignore npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

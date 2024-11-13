@@ -1,0 +1,7 @@
+.page-footer {
+    width: 75%;
+    margin: 0 auto;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,35 @@
+.link-tile {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.link-tile div {
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: .6;
+}
+
+.link-tile p {
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

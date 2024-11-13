@@ -1,0 +1,13 @@
+.main-navigation ul {
+    display: flex;
+    gap: 36px;
+}
+
+.main-navigation ul li {
+    list-style-type: none;
+}
+
+.main-navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
